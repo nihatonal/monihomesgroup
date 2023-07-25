@@ -21,7 +21,7 @@ function Forest(props) {
                 <div className="forest-content-info">
                     <h4 className="home-section-title"><Text tid="homepage_forest" /></h4>
                     <p className="home-section-desc"><Text tid="homepage_forest_desc" /></p>
-                    <a href="/thehut" className="home-section-btn"><Text tid="read_more" /></a>
+                    {/* <a href="/concept" className="home-section-btn"><Text tid="read_more" /></a> */}
                 </div>
             </div>
         </div>

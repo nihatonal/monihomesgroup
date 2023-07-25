@@ -6,7 +6,6 @@ function SectionCard(props) {
     const [desc, setDesc] = useState(0);
     const buttonHandler = (x) => {
         setDesc(x)
-        console.log(x)
     }
     return (
         <div className={`section-card-container ${props.className}`}>

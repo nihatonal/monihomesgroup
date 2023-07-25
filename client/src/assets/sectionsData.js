@@ -1,61 +1,108 @@
 export const sectionsData =
 
 {
-    outside: [
+    monihomes: [
         {
-            'image': require('./images/thehut/outside/outside_1.png')
+            'image': require('./images/concept/monihomes/monihomes_night.jpg')
         },
         {
-            'image':
-                require('./images/thehut/outside/hut_tube_1.jpg')
+            'image': require('./images/concept/monihomes/room1_4.jpg')
         },
         {
-            'image':
-                require('./images/thehut/outside/hut_tube_3.jpg')
+            'image': require('./images/concept/monihomes/room2_1.jpg')
         },
         {
-            'image':
-                require('./images/thehut/outside/electric_charging_points_1.jpg')
+            'image': require('./images/concept/monihomes/room2_2.jpg')
         },
         {
-            'image':
-                require('./images/thehut/outside/outside_4.png')
-        },
-
-    ],
-    inside: [
-        {
-            'image': require('./images/thehut/inside/space_1.png')
+            'image': require('./images/concept/monihomes/room2_3.jpg')
         },
         {
-            'image': require('./images/thehut/inside/bathroom_1.jpg')
+            'image': require('./images/concept/monihomes/room2_4.jpg')
         },
         {
-            'image': require('./images/thehut/inside/kitchen_1.jpg')
+            'image': require('./images/concept/monihomes/room2_5.jpg')
         },
         {
-            'image': require('./images/thehut/inside/space_2.jpg')
+            'image': require('./images/concept/monihomes/room2_6.jpg')
         },
         {
-            'image': require('./images/thehut/inside/inside_2.jpg')
+            'image': require('./images/concept/monihomes/room2_7.jpg')
+        },
+        {
+            'image': require('./images/concept/monihomes/room3_2.jpg')
+        },
+        {
+            'image': require('./images/concept/monihomes/room3_3.jpg')
         },
 
     ],
-    practicalities: [
+    villamasal: [
         {
-            'image': require('./images/thehut/practicalities/breakfast_1.png')
+            'image': require('./images/concept/villamasal/villamasal_1.jpg')
         },
         {
-            'image': require('./images/thehut/practicalities/breakfast_2.png')
+            'image': require('./images/concept/villamasal/villamasal_2.jpg')
         },
         {
-            'image': require('./images/thehut/practicalities/dinner_1.jpg')
+            'image': require('./images/concept/villamasal/villamasal_3.jpg')
         },
         {
-            'image': require('./images/thehut/practicalities/breakfast_1.png')
+            'image': require('./images/concept/villamasal/villamasal_4.jpg')
         },
         {
-            'image': require('./images/thehut/practicalities/breakfast_1.png')
+            'image': require('./images/concept/villamasal/villamasal_5.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_6.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_7.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_8.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_9.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_10.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_11.jpg')
+        },
+        {
+            'image': require('./images/concept/villamasal/villamasal_12.jpg')
+        },
+
+    ],
+    yoyo_tinyhouse: [
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_1.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_2.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_3.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_4.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_5.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_6.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_7.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_8.jpg')
+        },
+        {
+            'image': require('./images/concept/yoyotinyhouse/yoyo_9.jpg')
         },
 
     ],

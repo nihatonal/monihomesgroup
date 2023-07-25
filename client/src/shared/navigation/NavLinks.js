@@ -14,7 +14,7 @@ function NavLinks(props) {
                 </NavLink>
             </div>
             <div className="nav-item-wrapper" onClick={props.close}>
-                <NavLink to='/thehut' className={({ isActive }) =>
+                <NavLink to='/concept' className={({ isActive }) =>
                     isActive ? "nav-item active-nav-item" : "nav-item"
                 }>{lang.dictionary["navlinks"][1]}
                 </NavLink>

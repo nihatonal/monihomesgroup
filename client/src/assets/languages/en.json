@@ -3,7 +3,7 @@
   "hero-title": "Find peace in the Forest",
   "navlinks": [
     "home",
-    "the hut",
+    "concept",
     "the area",
     "booking",
     "about us",
@@ -27,7 +27,7 @@
       "nav_item": "home"
     },
     {
-      "nav_item": "the hut"
+      "nav_item": "concept"
     },
     {
       "nav_item": "the area"
@@ -45,11 +45,11 @@
   "book_now": "Book Now",
   "from": "from",
   "per_night": "per night",
-  "homepage_cabins": "The Cabins",
-  "homepage_cabins_desc": "Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.",
+  "homepage_cabins": "Fethiye",
+  "homepage_cabins_desc": "Fethiye is the perfect destination for travelers looking for easy access to crystal-clear waters, combined with endless activities in a vibrant urban setting. There are many amazing things to do in Fethiye when you are ready to get out of your beach chair. Legendary tales describes it as the land of lights. This town grew fast in the 19th century because of interaction between the Turks and the Greeks. Additionally, it was named Fethiye to honor ottoman air Force pilot who died during a mission.",
   "read_more": "Read More",
-  "homepage_forest": "The Forest",
-  "homepage_forest_desc": "Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are built around tall, old trees that go through the entire cottage from floor to ceiling.",
+  "homepage_forest": "A Little Beach Town or A Lively City",
+  "homepage_forest_desc": "Fethiye is a bustling port city on Turkey’s southwest coast. I thought we would be visiting a small beach town, but in fact, Fethiye has a population of over 160,000. If you search ‘Fethiye Turkey‘ on Google Images, most of the pictures you see are of nearby Oludeniz and its beaches. So just be aware that Fethiye is not a charming little beach town, but rather a lively small city.",
   "we_are_here": "We Are Here",
   "facilities": "Facilities",
   "fridge": "Mini fridge",
@@ -75,23 +75,23 @@
   "footer_item_2": "CENCELLATION POLICY",
   "footer_item_3": "PRIVACY POLICY",
   "footer_copyright": "© 2023 Monihomes Group",
-  "hut": "The Hut",
-  "hut_page": [
+  "concept": "consept",
+  "concept_page": [
     {
-      "section-title": "The Outside",
-      "section-id": "outside",
+      "section-title": "Monihomes",
+      "section-id": "monihomes",
       "section-buttons": [
-        "Hot tube",
-        "Electric car charge"
+        "Rooms",
+        "Location"
       ],
       "section-desc": [
-        "Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. ",
-        "Level 1 chargers can take 40-50 hours to charge a battery electric vehicle (BEV) from empty and 5-6 hours to charge a plug-in hybrid electric vehicle (PHEV) from empty."
+        "You will feel yourself at home in this small cozy apart hotel. Kitchen, iron, parking lot, wifi.. In short, we are ready to meet your every need. Our rooms are for 3 people and 2 of our rooms have balconies. And We have free car parking for our guests.",
+        "Our hotel is located exactly in the city center. The beaches are 10 minutes away by public transport. The coastal walking path is 3 minutes away, and you can shop on the historical Paspatur street, and you can enjoy an incredible seafood in the famous fish."
       ]
     },
     {
-      "section-title": "The Inside",
-      "section-id": "inside",
+      "section-title": "Villa Masal",
+      "section-id": "villamasal",
       "section-buttons": [
         "Space",
         "Kitchen",
@@ -104,8 +104,8 @@
       ]
     },
     {
-      "section-title": "Practicalities",
-      "section-id": "practicalities",
+      "section-title": "Yoyo Tinyhouse",
+      "section-id": "yoyo_tinyhouse",
       "section-buttons": [
         "Breakfast",
         "Classic Dinner"

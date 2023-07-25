@@ -25,7 +25,7 @@ function Cabins(props) {
                     <div className="cabins-top-content-info">
                         <h4 className="home-section-title"><Text tid="homepage_cabins" /></h4>
                         <p className="home-section-desc"><Text tid="homepage_cabins_desc" /></p>
-                        <a href="/thehut" className="home-section-btn"><Text tid="read_more" /></a>
+                        {/*      */}
                     </div>
                     <div className="cabins-top-content-img-wrapper">
                         <img src={Cabin} alt="cabin" />

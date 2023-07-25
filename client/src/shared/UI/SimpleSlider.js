@@ -73,7 +73,7 @@ export default class SimpleSlider extends Component {
                     {this.props.slides.map((slider, index) =>
                         <div className='slide_wrapper'>
                             <img src={slider.image} alt={index} key={index} />
-                        
+
                         </div>
                     )}
                 </Slider>
@@ -90,7 +90,7 @@ export default class SimpleSlider extends Component {
                     </button>
                 </div>
                 <div className="slide_bar">
-                    <p>0{this.state.current + 1}</p>
+                    <p>{this.state.current < 9 ? `0${this.state.current + 1}` : this.state.current + 1}</p>
                     <input
                         type="range"
                         min="1"
@@ -98,7 +98,7 @@ export default class SimpleSlider extends Component {
                         onChange={() => console.log(this.state.current)}
                         value={this.state.current + 1}
                     />
-                    <p>0{this.props.slides.length}</p>
+                    <p>{this.props.slides.length < 10 ? `0${this.props.slides.length}` : this.props.slides.length}</p>
                 </div>
             </div>
 

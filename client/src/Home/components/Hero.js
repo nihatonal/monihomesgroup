@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Text } from "../../shared/context/Language";
 import ButtonBook from '../../shared/UI/ButtonBook';
 import ImageSlider from '../../shared/UI/ImageSlider';
+import YoutubeEmbed from '../../shared/UI/YoutubeEmbed';
 import './Hero.css';
 
 function Hero(props) {
@@ -33,19 +34,20 @@ function Hero(props) {
     return (
         <div className='hero-container'>
             <div className="hero-images-wrapper">
-                <ImageSlider slides={SliderData}
+                {/* <ImageSlider slides={SliderData}
                     style={{
                         left: `-${bgPositionX}%`,
                         top: `-${bgPositionY}%`
                     }}
-                />
+                /> */}
+                <YoutubeEmbed embedId="rokGy0huYEA" />
             </div>
             <div className="hero-content">
                 <h1 className="hero-content-title"><Text tid="hero-title" /></h1>
                 <p className="hero-content-desc"><Text tid="hero-suptitle" /></p>
             </div>
             <ButtonBook className='hero-btn' />
-            <div className="slidebar_X-wrapper">
+            {/* <div className="slidebar_X-wrapper">
                 <input
                     type="range"
                     min="0"
@@ -56,8 +58,8 @@ function Hero(props) {
                     }}
                     value={left}
                 />
-            </div>
-            <div className="slidebar_Y-wrapper">
+            </div> */}
+            {/* <div className="slidebar_Y-wrapper">
                 <input
                     type="range"
                     min="0"
@@ -68,7 +70,7 @@ function Hero(props) {
                     }}
                     value={top}
                 />
-            </div>
+            </div> */}
 
 
         </div >

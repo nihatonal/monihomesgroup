@@ -9,7 +9,7 @@ import ScrollButton from "./shared/UI/ScrollButton";
 import ScrollToTop from './shared/util/ScrollToTop';
 
 import Home from "./Home/page/Home";
-import TheHut from "./TheHut/page/TheHut";
+import Concept from "./TheHut/page/Concept";
 import TheArea from "./TheArea/page/TheArea";
 import AboutUs from "./AboutUs/page/AboutUs";
 import Faq from "./Faq/page/Faq";
@@ -29,7 +29,7 @@ function App() {
               <MainNavigation />
               <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/thehut" element={<TheHut />} />
+                <Route exact path="/concept" element={<Concept />} />
                 <Route exact path="/thearea" element={<TheArea />} />
                 <Route exact path="/aboutus" element={<AboutUs />} />
                 <Route exact path="/faq" element={<Faq />} />

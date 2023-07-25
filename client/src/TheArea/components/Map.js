@@ -3,7 +3,7 @@ import React from 'react';
 import point from '../../assets/images/area/point.png';
 import './Map.css';
 function Map(props) {
-    console.log(props.beaches)
+    // console.log(props.beaches)
     return (
         <div className='section-card-container'>
             <div className="map-container">
