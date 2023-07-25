@@ -1,0 +1,141 @@
+.about-content-wrapper {
+  width: 387px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 89px;
+}
+.about-nav-btn {
+  width: 180px;
+  height: 55px;
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0.7px solid #ffffff;
+  background: none;
+}
+.about-nav-btn:hover {
+  background: var(--color-primary);
+}
+.about-nav-btn:nth-last-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-image-wrapper {
+  width: 547px;
+  height: 478px;
+}
+
+.aboutus-wrapper .section-card-content {
+  padding-top: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.aboutus-wrapper .section-card-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5b6460;
+}
+.section-card-desc {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+}
+.about_us-contact-section {
+  height: 990px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.aboutus-wrapper .contact-container {
+  align-items: flex-start;
+  height: auto;
+}
+.aboutus-wrapper .contact-wrapper {
+  height: 560px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.aboutus-wrapper .contact_form {
+  align-self: flex-end;
+}
+.aboutus-wrapper .contact-item:nth-child(2) {
+  margin: 100px 0 20px;
+}
+.heart-icon-wrapper {
+  width: 125px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.heart-icon-wrapper p {
+  font-family: "Handlee", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #5b6460;
+  width: 150px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .about-content-wrapper {
+    width: 330px;
+    margin-top: 49px;
+  }
+  .about-nav-btn {
+    width: 160px;
+    height: 45px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+  .aboutus-wrapper .section-card-title {
+    margin-bottom: 20px;
+  }
+  .section-image-wrapper {
+    width: 100%;
+    height: 478px;
+  }
+  .section-image-wrapper img {
+    width: 100%;
+    height: 478px;
+    object-fit: cover;
+  }
+  .about_us-contact-section {
+    height: 850px;
+  }
+  .aboutus-wrapper .contact-wrapper {
+    height: 560px;
+    width: 100%;
+  }
+  .aboutus-wrapper .contact_form {
+    align-self: center;
+  }
+  .aboutus-wrapper .contact-item:nth-child(2) {
+    margin: 30px 0 10px;
+  }
+  .heart-icon-wrapper {
+    margin-top: 110px;
+  }
+}

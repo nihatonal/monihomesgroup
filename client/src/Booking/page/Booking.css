@@ -1,0 +1,94 @@
+.booking-wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 100px;
+  margin-bottom: 100px;
+  column-gap: 138px;
+}
+.booking-nav-btn {
+  width: 180px;
+  height: 55px;
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0.7px solid #ffffff;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.booking-nav-btn:hover {
+  background: var(--color-primary);
+}
+.booking-section-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b6460;
+  border-bottom: 0.7px solid #5b6460;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+.booking-section-item {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+}
+.booking-section-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hut-rules {
+  height: 162px;
+  grid-row: 2;
+}
+.cancellation {
+  height: 84px;
+  grid-row: 3;
+}
+.information {
+  height: 56px;
+  grid-row: 4;
+}
+@media screen and (max-width: 767px) {
+  .booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .booking-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 70px;
+    margin-bottom: 100px;
+    column-gap: 138px;
+    padding: 0 20px;
+  }
+  .location-icon {
+    margin-right: 4px;
+  }
+  .area-nav-btn {
+    width: 160px;
+    height: 45px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+}

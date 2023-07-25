@@ -1,0 +1,6 @@
+.hut-wrapper {
+  margin-bottom: 150px;
+}
+.hut-wrapper .section-card-container:nth-last-child(2) .section-card-content {
+  order: -1;
+}

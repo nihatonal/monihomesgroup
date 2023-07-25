@@ -1,0 +1,193 @@
+.cart-wrapper {
+  width: 432px;
+  align-self: flex-start;
+  border: 0.7px solid #5b6460;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 4;
+  padding: 24px;
+  color: #333333;
+}
+.cart-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+.cart-title span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+}
+.calendar-wrapper {
+  width: 100%;
+  height: 68.77px;
+  border: 0.7px solid #5b6460;
+  margin: 24px 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.calendar-item {
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  color: #333333;
+  margin: 0 auto;
+}
+.calendar-item:nth-last-child(3) {
+  border-right: 0.7px solid #5b6460;
+  border-left: 0.7px solid #5b6460;
+  padding: 0 20px;
+}
+.calendar-item p:nth-last-child(1),
+.calendar-item .guest-count {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 3px;
+}
+.guest-count {
+  width: 65px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+.guest-count-btn {
+  background: none;
+  display: flex;
+  align-items: center;
+}
+.cart-book-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background: #5b6460;
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.cart-book-btn:hover,
+.cart-coupon-wrapper button:hover {
+  box-shadow: 0 0 10px #5b6460;
+}
+
+.cart-items-wrapper {
+  width: 100%;
+  display: grid;
+  row-gap: 20px;
+  margin: 30px 0 25px;
+  padding-bottom: 25px;
+  border-bottom: 0.7px solid #5b6460;
+}
+.cart-item {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+.discount {
+  color: #41916d;
+}
+
+.cart-total {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+}
+.cart-coupon-wrapper {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+}
+.cart-coupon-wrapper input {
+  height: 50px;
+  border: 0.7px solid #5b6460;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+  padding-left: 20px;
+  flex-grow: 1;
+}
+.invalid-code {
+  position: absolute;
+  top: -18px;
+  color: rgb(206, 60, 60);
+}
+.cart-coupon-wrapper input::placeholder {
+  color: #828282;
+}
+.cart-coupon-wrapper button {
+  width: 101.33px;
+  height: 50px;
+  background: var(--color-primary);
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .cart-wrapper {
+    width: 100%;
+    align-self: flex-start;
+    border: 0.7px solid #5b6460;
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    padding: 18px;
+    color: #333333;
+    margin: 0 auto;
+  }
+  .calendar-wrapper {
+    height: 68.77px;
+    margin: 16px 0;
+    position: static;
+  }
+  .cart-book-btn {
+    height: 50px;
+  }
+  .cart-coupon-wrapper {
+    height: 40px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,213 @@
+#additionals-wrapper .question {
+  width: 660px;
+  height: 70px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #333333;
+  text-align: left;
+  border: none;
+  /* padding: 0 24px; */
+  background: var(--color-secondary);
+  display: grid;
+  grid-template-columns: 34px 1fr 34px;
+  align-items: center;
+  position: relative;
+}
+.accordion_item-name {
+  margin-top: auto;
+  margin-bottom: 6px;
+  margin-left: 20px;
+}
+.portion {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+  grid-row: 2;
+  margin-bottom: auto;
+  margin-left: 20px;
+  grid-column: 2;
+}
+.question-mark {
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-button {
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  grid-row: 1 / span 2;
+  cursor: pointer;
+}
+
+.check-button span {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desc {
+  height: 45px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 34px 1fr;
+  position: relative;
+}
+.checked {
+  font-size: 24px;
+  color: #fff;
+  background: var(--color-primary);
+}
+.control {
+  width: 34px;
+  height: 34px;
+  font-size: 30px;
+  background: var(--color-secondary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  margin-left: auto;
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  cursor: pointer;
+}
+.control:hover,
+.check-button:hover {
+  box-shadow: 0 0 5px #5b6460;
+}
+.desc-item-title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.desc-item-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+.desc-item-desc {
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 20px;
+}
+
+/* activate toggle */
+.accordion_item.active .button {
+  background-color: #105057;
+}
+.desc_wrapper {
+  height: 0;
+  /* width: 660px; */
+  overflow: hidden;
+  transition: all ease 0.2s;
+  padding-left: 24px;
+  display: grid;
+  row-gap: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  #additionals-wrapper .question {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    display: grid;
+    grid-template-columns: 34px 1fr 34px;
+    align-items: center;
+    position: relative;
+  }
+  .desc {
+    height: auto;
+  }
+}
+
+.addition-item-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid red;
+}
+/* Hide the browser's default checkbox */
+.desc_wrapper input {
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+/* On mouse-over, add a grey background color */
+/* .addition-item:hover input ~ .checkmark {
+    background-color: #ccc;
+  } */
+
+/* When the checkbox is checked, add a blue background */
+.accordion_item input:checked ~ .checkmark {
+  background-color: var(--color-secondary);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.accordion_item input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.accordion_item .checkmark:after {
+  left: 8.5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

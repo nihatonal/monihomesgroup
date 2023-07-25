@@ -1,0 +1,93 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 32px 0 146px;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+  box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.header-container:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.mobile-menu-wrapper {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .header-container {
+    height: 60px;
+    padding: 0;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .logo-link img {
+    height: 45px;
+  }
+  .mobile-menu-wrapper {
+    display: flex;
+  }
+  .mobile-menu-wrapper .select-lang {
+    margin-right: 20px;
+  }
+
+  .mobile-menu-wrapper .select-lang .options li {
+    height: 30px;
+    width: 30px;
+  }
+}
+.book-btn-small {
+  font-family: "DIN";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  width: 200px;
+  height: 60px;
+  background-color: var(--color-primary);
+  text-align: center;
+  /* margin-left: 177px;
+  margin-right: 32px; */
+}
+
+@media screen and (max-width: 767px) {
+  .book-btn-small {
+    display: none;
+  }
+}
+.book-btn-small:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.header-container .calendar-container {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background-color: #fff;
+  height: 66px;
+  width: 673px;
+  display: flex;
+}
+.header-container .calendar-wrapper {
+  height: 66px;
+  margin: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.header-container .cart-book-btn {
+  height: 66px;
+  flex-shrink: 2;
+}
+.header-container .cart-book-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
