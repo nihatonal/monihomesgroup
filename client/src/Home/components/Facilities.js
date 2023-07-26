@@ -7,7 +7,7 @@ import coffee from '../../assets/icons/coffee.png';
 import kettle from '../../assets/icons/tea_kettle.png';
 import parking from '../../assets/icons/parking.png';
 import views from '../../assets/icons/breathing_views.png';
-import heating from '../../assets/icons/floor_heating.png';
+import pool from '../../assets/icons/pool.png';
 import plug from '../../assets/icons/plug_230V.png';
 import wifi from '../../assets/icons/wifi.png';
 import shower from '../../assets/icons/shower.png';
@@ -47,8 +47,8 @@ function Facilities(props) {
                     <p><Text tid="views" /></p>
                 </div>
                 <div className="facility-item">
-                    <img src={heating} alt="heating" />
-                    <p><Text tid="heating" /></p>
+                    <img src={pool} alt="pool" />
+                    <p><Text tid="pool" /></p>
                 </div>
                 <div className="facility-item">
                     <img src={plug} alt="plug" />

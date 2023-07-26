@@ -31,6 +31,7 @@ function Concept() {
                     title={item['section-title']}
                     buttons={item['section-buttons']}
                     desc={item['section-desc']}
+                    features={item['section-features']}
                 />
             )}
         </div>

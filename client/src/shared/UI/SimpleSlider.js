@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
         var settings = {
             dots: false,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,

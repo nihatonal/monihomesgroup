@@ -1,6 +1,6 @@
 {
-  "hero-suptitle": "Come and stay in out hut hotel near Mariager Fjord in Denmark",
-  "hero-title": "Find peace in the Forest",
+  "hero-suptitle": "Come and stay in our habitats near Fethiye in Turkey",
+  "hero-title": "Find peace in the Blue",
   "navlinks": [
     "home",
     "concept",
@@ -58,7 +58,7 @@
   "kettle": "Electric tea kettle",
   "parking": "Parking",
   "views": "Breathtaking views",
-  "heating": "Floor heating",
+  "pool": "Pool",
   "light": "230V",
   "wifi": "wifi",
   "shower": "Shower",
@@ -82,37 +82,68 @@
       "section-id": "monihomes",
       "section-buttons": [
         "Rooms",
-        "Location"
+        "Location",
+        "Features"
       ],
       "section-desc": [
         "You will feel yourself at home in this small cozy apart hotel. Kitchen, iron, parking lot, wifi.. In short, we are ready to meet your every need. Our rooms are for 3 people and 2 of our rooms have balconies. And We have free car parking for our guests.",
-        "Our hotel is located exactly in the city center. The beaches are 10 minutes away by public transport. The coastal walking path is 3 minutes away, and you can shop on the historical Paspatur street, and you can enjoy an incredible seafood in the famous fish."
+        "Our hotel is located exactly in the city center. The beaches are 10 minutes away by public transport. The coastal walking path is 3 minutes away, and you can shop on the historical Paspatur street, and you can enjoy an incredible seafood in the famous fish market."
+        
+      ],
+      "section-features":[
+        "Localization",
+        "Clean",
+        "Price",
+        "Parking",
+        "Free Wifi",
+        "Kitchen",
+        "City Center"
       ]
     },
     {
       "section-title": "Villa Masal",
       "section-id": "villamasal",
       "section-buttons": [
-        "Space",
-        "Kitchen",
-        "Bathroom"
+        "Villa",
+        "Location",
+        "Features"
       ],
       "section-desc": [
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32."
+        "It consists of stone architecture suitable for the texture of the region. The interior of the villa, which serves with very comfortable garden furniture, a lodge positioned by the pool and a mini playground for the use of our little guests, also has a very spacious structure. There is also a jacuzzi in one bedroom and you can enjoy the sauna and fireplace with your loved ones.",
+        "Our location is Fethiye Cenger neighborhood. You are in the right place to start the day with the sounds of birds and enjoy the sun, the nature and the pool, away from the hustle and bustle of the city.\n An important reminder: In order to have a comfortable holiday, you need to do your shopping before going to the villa, because the nearest market is 12 KM away."
+      ],
+      "section-features": [
+        "Pool",
+        "Sauan",
+        "Jacuzzi",
+        "Two Bathrooms",
+        "Fireplace",
+        "Kitchen",
+        "Quiet",
+        "Children's Playground",
+        "Nature"
       ]
     },
     {
       "section-title": "Yoyo Tinyhouse",
       "section-id": "yoyo_tinyhouse",
       "section-buttons": [
-        "Breakfast",
-        "Classic Dinner"
+        "Villa",
+        "Location",
+        "Features"
       ],
       "section-desc": [
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-        "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. "
+        "Accommodating with Yoyo Tinyhouse in Fethiye is a great option for those who want to get away from ordinary holiday experiences. It is ideal for those who like to be in touch with nature, experience a minimalist lifestyle and relax in a peaceful atmosphere. \n TinyHouse is designed as a 1+1 house and is suitable for 4 people. It offers the opportunity to dine and spend time outdoors with its large veranda.",
+        "Yoyo Tinyhouse offers a calm and peaceful rest away from the crowd and noise of the city. Our location is in Calica region close to Zincirlikavak. \n It is 13 km from Oludeniz beach and 7.5 km from Calis beach."
+      ],
+      "section-features": [
+        "Kitchen",
+        "Clean",
+        "Garden",
+        "Parking",
+        "Free Wifi",
+        "Nature",
+        "Comfort"
       ]
     }
   ],
@@ -213,8 +244,8 @@
   "about_us": "About Us",
   "contact_us": "contact us",
   "read_faq": "read faq",
-  "about_us_section_title": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”",
-  "about_us_section_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+  "about_us_section_title": "“You are not a client for us, you are our precious guests that we host in our home.”",
+  "about_us_section_desc": "It is our first priority to make you feel at home in our distinguished Fethiye, which is one of the most beautiful coastal cities in Turkey. We have thought everything to afford all your needs. Apart otel - Monihomes and our villas are at the top of their own concepts. We have created different concepts for you. From those who want to relax with the melody of bird sounds in nature to those who want to feel the energy of the city..",
   "about_us_section_galery": "Lorem ipsum dolor sit amet, consectetur adipiscing...",
   "about_us_image_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "heart-text": "From Denmark, With love...",

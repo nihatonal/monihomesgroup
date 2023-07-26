@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from "../../shared/context/Language";
 
-import Cabin from '../../assets/images/homepage/cabins.png'
+import Cabin from '../../assets/images/homepage/fethiye_hero.jpg'
 import VideoPlayer from '../../shared/UI/VideoPlayer';
 
 import video_HD from "../../assets/videos/Beautiful_Places_to_Visit_in_Denmark_HD.mp4";

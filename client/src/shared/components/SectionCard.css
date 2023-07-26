@@ -47,7 +47,32 @@
 .section-btns-wrapper .active-btn {
   border-bottom: 1px solid #5b6460;
 }
-
+.section-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  row-gap: 30px;
+  column-gap: 50px;
+  padding-left: 28px;
+}
+.section-features svg {
+  position: absolute;
+  left: -28px;
+  margin-right: 10px;
+  font-size: 22px;
+  color: rgb(14, 129, 129);
+}
+.section-features .section-desc {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/* .section-features .section-desc:last-child,
+.section-features .section-desc:nth-last-child(5)  {
+  grid-column: 1 / span 2;
+} */
 .section-desc {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -90,6 +115,12 @@
   }
   .section-btn {
     font-size: 16px;
+  }
+  .section-features {
+    gap: 20px;
+  }
+  .section-features .section-desc {
+    margin-right: 20px;
   }
   .section-desc {
     font-size: 13px;

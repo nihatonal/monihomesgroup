@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import VideoPlayer from "react-background-video-player";
-import video_ from '../../assets/videos/Top 10 Things To Do in Fethiye Turkey.mp4'
+import video_ from '../../assets/videos/fethiyetanitim.mp4'
 import './YoutubeEmbed.css'
 const YoutubeEmbed = ({ embedId }) => (
     <div className="video-responsive">

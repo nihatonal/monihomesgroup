@@ -39,14 +39,15 @@ export const sectionsData =
     ],
     villamasal: [
         {
+            'image': require('./images/concept/villamasal/villamasal_3.jpg')
+        },
+        {
             'image': require('./images/concept/villamasal/villamasal_1.jpg')
         },
         {
             'image': require('./images/concept/villamasal/villamasal_2.jpg')
         },
-        {
-            'image': require('./images/concept/villamasal/villamasal_3.jpg')
-        },
+
         {
             'image': require('./images/concept/villamasal/villamasal_4.jpg')
         },
