@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { LanguageContext } from "../../shared/context/Language";
 import {
     VALIDATOR_EMAIL,
@@ -7,13 +7,14 @@ import {
 } from "../../shared/util/validators.js";
 import { useForm } from "../../shared/hooks/form-hook";
 import Input from '../../shared/components/formElements/Input';
+import RingLoader from "react-spinners/RingLoader";
 import './ContactForm.css';
 function ContactForm(props) {
 
     const lang = useContext(LanguageContext);
     const input_placeholders = lang.dictionary["form_element"][0];
     const input_errors = lang.dictionary["form_element"][1];
-
+    const [isLoading, setIsLoading] = useState(false)
     const [formState, inputHandler] = useForm(
         {
             fname: {
@@ -42,7 +43,7 @@ function ContactForm(props) {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        console.log('ffas')
+        console.log(formState.inputs)
     }
     return (
         <form className='contact_form' onSubmit={submitHandler}>
@@ -101,7 +102,7 @@ function ContactForm(props) {
                 type="text"
                 custom_placeholder={input_placeholders.message}
                 error_Text={input_errors.error_textarea}
-                validators={[VALIDATOR_MINLENGTH(100)]}
+                validators={[VALIDATOR_MINLENGTH(5)]}
                 onInput={inputHandler}
                 initialValue={formState.inputs.message.value}
                 initialValid={formState.inputs.message.isValid}
@@ -110,7 +111,14 @@ function ContactForm(props) {
                 type='submit'
                 className='contact_form-btn'
                 disabled={!formState.isValid}
-            >{input_placeholders.send}</button>
+            >{isLoading ? <RingLoader
+                color={"#e9ece0"}
+                loading={true}
+                cssOverride={''}
+                size={35}
+                aria-label="Loading Spinner"
+                data-testid="loader"
+            /> : input_placeholders.send}</button>
 
         </form>
 

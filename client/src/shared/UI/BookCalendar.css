@@ -1,6 +1,6 @@
 .calendar-modal {
   width: 673px;
-  height: 380px;
+  height: 410px;
   background: #fff;
   position: absolute;
   top: 75px;
@@ -29,9 +29,10 @@
   box-shadow: none;
 }
 .react-calendar--doubleView {
-  width: 624px;
-  height: 296px;
+  width: 640px;
+  height: 336px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 .react-calendar--doubleView .react-calendar__viewContainer {
   display: flex;
@@ -233,6 +234,7 @@
   align-items: center;
   color: #ffffff;
   align-self: flex-end;
+  margin-top: 10px;
 }
 .clear-dates {
   font-weight: 600;
@@ -258,8 +260,10 @@
   position: absolute;
   background: rgba(91, 100, 96, 0.8);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  row-gap: 40px;
   display: none;
 }
 .error_modal p {
@@ -283,8 +287,8 @@
   }
   .calendar-modal-wrapper {
     display: flex;
-    min-width: 300px;
-    width: 300px;
+    min-width: 350px;
+    width: 350px;
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 auto;
@@ -292,6 +296,13 @@
   }
   .calendar-btns-wrapper {
     margin-top: 50px;
+  }
+  .react-calendar {
+    padding: 20px;
+  }
+  .react-calendar__navigation__label__labelText--from {
+    margin-left: 0;
+    min-width: 100%;
   }
   .react-calendar__navigation {
     width: 100%;

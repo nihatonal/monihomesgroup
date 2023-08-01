@@ -1,11 +1,12 @@
 import React from 'react';
 import { Text } from "../../shared/context/Language";
-
+import map from '../../assets/images/homepage/map.png'
 import './Forest.css';
 function Forest(props) {
     return (
         <div className='forest-container'>
             <div className='forest-image-wrapper'>
+                <img src={map} alt={'map'}/>
                 <div className="forest-image-filter"></div>
                 <div className="forest-location-wrapper">
                     <div className="forest-location-secondline">

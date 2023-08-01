@@ -4,20 +4,20 @@ import { languageOptions, dictionaryList } from '../../assets/languages/index';
 
 // create the language context with default selected language
 export const LanguageContext = createContext({
-  userLanguage: 'dk',
-  dictionary: dictionaryList.dk
+  userLanguage: 'tr',
+  dictionary: dictionaryList.tr
 });
 
 // it provides the language context to app
 export function LanguageProvider({ children }) {
   const defaultLanguage = window.localStorage.getItem('rcml-lang');
-  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'dk');
+  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'tr');
 
   const provider = {
     userLanguage,
     dictionary: dictionaryList[userLanguage],
     userLanguageChange: selected => {
-      const newLanguage = languageOptions[selected] ? selected : 'dk'
+      const newLanguage = languageOptions[selected] ? selected : 'tr'
       setUserLanguage(newLanguage);
       window.localStorage.setItem('rcml-lang', newLanguage);
     }

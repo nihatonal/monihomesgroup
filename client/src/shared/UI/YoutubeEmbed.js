@@ -4,6 +4,7 @@ import VideoPlayer from "react-background-video-player";
 import video_ from '../../assets/videos/fethiyetanitim.mp4'
 import './YoutubeEmbed.css'
 const YoutubeEmbed = ({ embedId }) => (
+    
     <div className="video-responsive">
         {/* <iframe
             width="853"
@@ -21,6 +22,8 @@ const YoutubeEmbed = ({ embedId }) => (
           autoPlay={true}
           muted={true}
           loop={true}
+          playsInline={true}
+          preload={true}
         />
         
     </div>

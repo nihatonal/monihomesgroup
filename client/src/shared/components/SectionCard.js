@@ -8,7 +8,7 @@ function SectionCard(props) {
     const buttonHandler = (x) => {
         setDesc(x)
     }
-
+    const conditions = ["Features", "Özellikler", "howdy"];
     return (
         <div className={`section-card-container ${props.className}`}>
             {props.title_content}
@@ -33,14 +33,15 @@ function SectionCard(props) {
                     )}
 
                 </div>
-                {props.buttons.includes("Features") && desc === 2 ?
+                {conditions.some(el => props.buttons.includes(el))
+                    && desc === 2 ?
                     <ul className='section-features'>
                         {props.features.map((item, index) =>
-                            <li className="section-desc"><BsCheckCircle />{item}</li>
+                            <li className="section-desc" key={index}><BsCheckCircle />{item}</li>
                         )}
                     </ul>
 
-                    : <div>{props.desc[desc].split(/\r?\n|\r|\n/g).map((item, index) => <p className="section-desc">{item}</p>)}</div>
+                    : <div>{props.desc[desc].split(/\r?\n|\r|\n/g).map((item, index) => <p className="section-desc" key={index}>{item}</p>)}</div>
                 }
             </div>
         </div>

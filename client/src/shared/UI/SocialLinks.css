@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
 }
-.social-links-wrapper a {
+.social-links-wrapper .social-link {
   width: 50px;
   height: 50px;
   background: var(--color-primary);
@@ -15,8 +15,9 @@
   color: var(--color-secondary);
   font-size: 22px;
   transition: all 0.3s;
+  cursor: pointer;
 }
-.social-links-wrapper a:hover {
+.social-links-wrapper .social-link:hover {
   color: var(--color-primary);
   background: var(--color-secondary);
 }

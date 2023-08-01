@@ -15,7 +15,7 @@ function BookCalendar(props) {
     const sectionData = lang.dictionary["booking_words"][0];
     const [value, onChange] = useState();
     const [error, setError] = useState(false);
-    const [markDates, setMarkDates] = useState(['2023/02/23', '2023/02/24', '2023/02/25', '2023/02/26']);
+    const [markDates, setMarkDates] = useState(['2023/08/23', '2023/08/24', '2023/08/25', '2023/08/26']);
 
     function expandDates(startDate, stopDate) {
         let dateArray = [];
@@ -94,7 +94,11 @@ function BookCalendar(props) {
                     style={error ? { display: "flex" } : null}
                     onClick={() => setError(false)}
                 >
-                    <p>{sectionData.error_dates}</p>
+
+                    {/* {sectionData.error_dates} */}
+                    {sectionData.error_dates.split(/\r?\n|\r|\n/g).map((item, index) => <p>{item}</p>)}
+
+
                 </div>
             </div>
         </div>

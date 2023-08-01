@@ -45,10 +45,10 @@ function Cart(props) {
     return (
         <div className='cart-wrapper'>
             {props.children}
-            <p className='cart-title'>3200kr<span> / {sectionData.night}</span></p>
+            <p className='cart-title'>{cart.concept.price}₺<span> / {sectionData.night}</span></p>
             <PickbookDates>
                 <NavLink
-                to={'/booking/payment'}
+                    to={'/booking/payment'}
                     className="cart-book-btn"
                     onClick={() => console.log(cart.dateRange)}>
                     {sectionData.book}
@@ -56,28 +56,32 @@ function Cart(props) {
             </PickbookDates>
             <div className="cart-items-wrapper">
                 <div className="cart-item">
-                    <p>{`3.200kr x ${cart.dateRange.length - 1} ${cart.dateRange.length === 2 ? sectionData.night : sectionData.nights}`}</p>
-                    <p>{3200 * (cart.dateRange.length - 1)}kr</p>
+                    <p>{`${cart.concept.price}₺ x ${cart.dateRange.length - 1} ${cart.dateRange.length === 2 ? sectionData.night : sectionData.nights}`}</p>
+                    <p>{cart.concept.price * (cart.dateRange.length - 1)}₺</p>
+                </div>
+                <div className="cart-item">
+                    <p>{cart.concept.title}</p>
+                    <p>{cart.concept.price}₺</p>
                 </div>
                 {cart.items.map((item) =>
                     item.additions.map((add, index) =>
                         <div className="cart-item" key={index}>
                             <p>{add.name}</p>
-                            <p>{add.price}kr</p>
+                            <p>{add.price}₺</p>
                         </div>
                     )
                 )}
                 {discount > 0 &&
                     <div className="cart-item discount">
                         <p>10% {sectionData.discount}</p>
-                        <p>{discount}kr</p>
+                        <p>{discount}₺</p>
                     </div>
                 }
             </div>
             <p className="cart-total">
                 {sectionData.total}
                 <span>
-                    {(3200 * (cart.dateRange.length - 1)) + cart.getTotalCost() - discount}kr
+                    {(cart.concept.price * (cart.dateRange.length - 1)) + cart.getTotalCost() - discount}₺
                 </span>
             </p>
             <div className="cart-coupon-wrapper">

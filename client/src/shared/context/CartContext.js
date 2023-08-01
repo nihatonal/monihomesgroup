@@ -2,6 +2,7 @@ import { createContext, useState } from "react";
 import moment from "moment";
 export const CartContext = createContext({
     items: [],
+    concept: {},
     dateRange: [],
     booking: null,
     guests: 1,
@@ -19,7 +20,8 @@ export function CartProvider({ children }) {
     const [cartProducts, setCartProducts] = useState([]);
     const [bookingOpen, setBookingOpen] = useState(false);
     const [dateRange, setDateRange] = useState([moment(new Date()).format("YYYY/MM/DD"), moment().add(1, 'days').format("YYYY/MM/DD")]);
-    const [countGuests, setCountGuests] = useState(1)
+    const [countGuests, setCountGuests] = useState(1);
+    const [concept, setConcept] = useState({})
 
     // [ { id: 1 , quantity: 3 }, { id: 2, quantity: 1 } ]
     function modalHandler(x) {
@@ -49,30 +51,10 @@ export function CartProvider({ children }) {
         return quantity;
     }
 
-    function addOneToCart(id) {
-        const quantity = getProductQuantity(id);
+    function addOneToCart(x) {
+        // product is not in cart
+        setConcept(x)
 
-        if (quantity === 0) { // product is not in cart
-            setCartProducts(
-                [
-                    ...cartProducts,
-                    {
-                        id: id,
-                        quantity: 1,
-                        additions: []
-                    }
-                ]
-            )
-        } else { // product is in cart
-            setCartProducts(
-                cartProducts.map(
-                    product =>
-                        product.id === id                                // if condition
-                            ? { ...product, quantity: product.quantity + 1 } // if statement is true
-                            : product                                        // if statement is false
-                )
-            )
-        }
     }
     function addAdditionsToCart(id, item) {
         const x = cartProducts.filter(product => product.id === id)
@@ -99,9 +81,6 @@ export function CartProvider({ children }) {
                 )
             )
         }
-
-
-
 
     }
     function removeAdditionsToCart(id, item_id) {
@@ -156,6 +135,7 @@ export function CartProvider({ children }) {
         booking: bookingOpen,
         dateRange: dateRange,
         guests: countGuests,
+        concept: concept,
         setDates,
         getProductQuantity,
         addOneToCart,

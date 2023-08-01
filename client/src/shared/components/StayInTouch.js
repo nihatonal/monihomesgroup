@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import SocialLinks from '../UI/SocialLinks';
-import { Text } from "../context/Language";
+import { Text, LanguageContext } from "../context/Language";
 import './StayInTouch.css';
 function StayInTouch(props) {
+    const lang = useContext(LanguageContext);
     return (
         <div className={`contact-container`}>
             <div className="contact-wrapper">
@@ -11,14 +12,14 @@ function StayInTouch(props) {
                     <h4 className="home-section-title">
                         <Text tid="section_contact-title" />
                     </h4>
-                    <p className="contact-item">
-                        <Text tid="section_contact-address" />
-                    </p>
-                    <a href="tel:+123 456 789 000" className="contact-item">
-                        +123 456 789 000
+                    <div className="contact-item">
+                        {lang.dictionary["section_contact-address"].split(/\r?\n|\r|\n/g).map((item, index) => <p >{item}</p>)}
+                    </div>
+                    <a href="tel:+905308997709" className="contact-item">
+                        +90 530 899 77 09
                     </a>
                     <a href="mailto:info@theglasshuts.com" className="contact-item">
-                        info@theglasshuts.com
+                        monihomes48@gmail.com
                     </a>
                     <SocialLinks />
                 </div>

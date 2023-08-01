@@ -37,6 +37,9 @@
   color: #ffffff;
   grid-column: 2;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact_form-btn:hover {
   background: var(--color-light-black);

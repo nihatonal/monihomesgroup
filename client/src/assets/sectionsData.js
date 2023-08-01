@@ -228,16 +228,16 @@ export const sectionsData =
     ],
     aboutus: [
         {
-            'image': require('./images/aboutus/black_image.png')
+            'image': require('./images/aboutus/restaurant_black_white.jpg')
         },
         {
-            'image': require('./images/aboutus/nature_panaroma.png')
+            'image': require('./images/aboutus/panaroma.jpg')
         },
         {
-            'image': require('./images/aboutus/art.png')
+            'image': require('./images/aboutus/villa_masal.jpg')
         },
         {
-            'image': require('./images/aboutus/tube.png')
+            'image': require('./images/aboutus/monihomes.jpg')
         },
     ]
 

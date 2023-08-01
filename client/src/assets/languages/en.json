@@ -9,39 +9,6 @@
     "about us",
     "faq"
   ],
-  "work-items": [
-    {
-      "title": "Deal calculation",
-      "id": "0001",
-      "desc": "Client fills out Application.",
-      "desc2": "The manager calculates the cost of transportation and related services."
-    },
-    {
-      "title": "Contract signing",
-      "id": "0002",
-      "desc": "Our Manager prepares the Agreement on the basis of the Application. Signing of the Agreement can be carried out using EDS"
-    }
-  ],
-  "navlinkss": [
-    {
-      "nav_item": "home"
-    },
-    {
-      "nav_item": "concept"
-    },
-    {
-      "nav_item": "the area"
-    },
-    {
-      "nav_item": "bokking"
-    },
-    {
-      "nav_item": "about us"
-    },
-    {
-      "nav_item": "faq"
-    }
-  ],
   "book_now": "Book Now",
   "from": "from",
   "per_night": "per night",
@@ -66,7 +33,7 @@
   "towels": "Bedding & towels",
   "aboutus": "More about us",
   "section_contact-title": "Stay in touch with us",
-  "section_contact-address": " Fethiye, Turkiye",
+  "section_contact-address": "Cumhuriyet, 93. Sok No: 4C, 48300 \n Fethiye / Muğla, Türkiye",
   "button_book_hut": "Book a hut",
   "footer_title": "Newsletter",
   "email": "Email Address",
@@ -88,9 +55,8 @@
       "section-desc": [
         "You will feel yourself at home in this small cozy apart hotel. Kitchen, iron, parking lot, wifi.. In short, we are ready to meet your every need. Our rooms are for 3 people and 2 of our rooms have balconies. And We have free car parking for our guests.",
         "Our hotel is located exactly in the city center. The beaches are 10 minutes away by public transport. The coastal walking path is 3 minutes away, and you can shop on the historical Paspatur street, and you can enjoy an incredible seafood in the famous fish market."
-        
       ],
-      "section-features":[
+      "section-features": [
         "Localization",
         "Clean",
         "Price",
@@ -151,8 +117,6 @@
   "area-name": "Fethiye, Turkiye",
   "area-nav": "get directions",
   "area-map-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing...",
-  "vesterborg": "Vesterborg",
-  "copenhagen": "Copenhagen",
   "activities": "Activities",
   "area_page": [
     {
@@ -161,7 +125,7 @@
       "section-id": "fethiye",
       "section-buttons": [],
       "section-desc": [
-        "With its postcard-worthy backdrop of golden sands, forested mountains, and miles of azure ocean, it’s no surprise that Fethiye is among the most-visited cruise ports on Turkey’s Turquoise Coast. The town itself is equally attractive, with leafy seafront promenades, lively bazaars, and ancient ruins."
+        "With its postcard-worthy backdrop of golden sands, forested mountains, and miles of azure sea, it’s no surprise that Fethiye is among the most-visited cruise ports on Turkey’s Turquoise Coast. The town itself is equally attractive, with leafy seafront promenades, lively bazaars, and ancient ruins."
       ]
     },
     {
@@ -209,7 +173,7 @@
       ],
       "section-desc": [
         "Turkey has a reputation for its cuisine, but nothing will prepare you for how good it actually is… Soak in the cultural sights in the heart of Fethiye old town, or enjoy a romantic sea-view as you dine on the promenade or marina area. Also The Fethiye fish market is one of the town’s most famous tourist attractions and is open all year round, staying open late in the evenings during the summer season. It’s a wonderful location and the perfect spot for a lunchtime meal (popular with locals) or a fabulous night out.",
-        "The Makri shopping center resembles a mall of sorts, but it is an affordable place. The Paspatur Bazaar is another ideal tourist option due to its balance between amazingly cheap and branded goods. You will find branded or fake designer items at an unbelievable rate if you negotiate well."
+        "You can find souvenirs for yourself and your loved ones that will remind you of Fethiye in the small shops on the historical Paspatur street, and you can buy spices that will spice up your kitchen. Also pamper yourself in the stores of famous brands in the modern shopping center Erasta, which is within walking distance of the city center."
       ]
     },
     {
@@ -221,8 +185,8 @@
         "Scuba Diving"
       ],
       "section-desc": [
-        "The most popular hiking trail on the Mediterranean Coast: The Lycian Way! The Lycian Way is a trekking route following the traces of the ancient trade route of the Lycians along the Turkish Mediterranean coast.",
-        "You will fall in love with the panoramic views of the surrounding. A video and many photos of your flight will be recorded and available on your request. You will take off from the top of Babadag mountain which is 1600mt (or 1900mt depends on the weather conditions) high and start a slow descent floating to the sandy beach with highly experienced pilots.",
+        "The most popular hiking trail on the Mediterranean Coast: The Lycian Way! The Lycian Way is a trekking route following the traces of the ancient trade route of the Lycians along the Turkish Mediterranean coast. The length of the Lycian way is more than 500 kilometers (310 mi). This road starts from Hisaronu, near Ovacik, Fethiye, to Konyaaltı, Geyikbayırı, about 20 km (12 mi) from Antalya. The road is marked with red and white road lines.",
+        "You will fall in love with the panoramic views of the surrounding. A video and many photos of your flight will be recorded and available on your request. You will take off from the top of Babadag mountain which is 1600mt (or 1900mt depends on the weather conditions) high and start a slow descent floating to the sandy beach with highly experienced pilots. You will not forget this experience for the rest of your life. Your flight will be recorded by the pilot and you will be proud of yourself when you look at the unique frames.",
         "Are you ready to explore world of underwater? Don’t worry, you do not have to be professional or experienced to dive. There are professional teachers who will teach you how to and guide you all the day. "
       ]
     },
@@ -244,11 +208,11 @@
   "about_us": "About Us",
   "contact_us": "contact us",
   "read_faq": "read faq",
-  "about_us_section_title": "“You are not a client for us, you are our precious guests that we host in our home.”",
+  "about_us_section_title": "“We want to make sure each guest feels completely at ease during their stay.”",
   "about_us_section_desc": "It is our first priority to make you feel at home in our distinguished Fethiye, which is one of the most beautiful coastal cities in Turkey. We have thought everything to afford all your needs. Apart otel - Monihomes and our villas are at the top of their own concepts. We have created different concepts for you. From those who want to relax with the melody of bird sounds in nature to those who want to feel the energy of the city..",
-  "about_us_section_galery": "Lorem ipsum dolor sit amet, consectetur adipiscing...",
-  "about_us_image_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "heart-text": "From Denmark, With love...",
+  "about_us_section_galery": "Would you like to take part in these frames?",
+  "about_us_image_desc": "Discover offers crafted to enhance your stay and create unforgettable moments...",
+  "heart-text": "From Fethiye, With love...",
   "faq": [
     {
       "question": "PRICES",
@@ -297,7 +261,36 @@
     }
   ],
   "booking": "Booking",
+  "booking_consept": "Choose Your Consept",
   "booking_additionals": "Choose Additional Services",
+  "booking_concept_services": [
+    {
+      "name": "Choose Your Consept",
+      "id": "concept",
+      "price": 5000,
+      "desc_title": "Fresh Breakfast",
+      "desc": [
+        {
+          "id": "concept_01",
+          "price": 2000,
+          "title": "Moni Homes",
+          "description": "Apart Hotel, located at the center of city"
+        },
+        {
+          "id": "concept_02",
+          "price": 5000,
+          "title": "Villa Masal",
+          "description": "An excellent villa by a swimming pool."
+        },
+        {
+          "id": "concept_03",
+          "price": 600,
+          "title": "Yoyo Tiny House",
+          "description": "An excellent villa by a garden."
+        }
+      ]
+    }
+  ],
   "booking_additional_services": [
     {
       "name": "Fresh Breakfast for one",
@@ -455,7 +448,7 @@
       "apply": "Apply",
       "clear": "Clear dates",
       "close": "Close",
-      "error_dates": "Please pick up valid dates",
+      "error_dates": "Dates already booked. \nPlease pick up valid dates",
       "invalid_coupon": "Invalid code. Please try again."
     }
   ],

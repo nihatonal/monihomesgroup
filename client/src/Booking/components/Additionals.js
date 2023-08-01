@@ -20,6 +20,7 @@ function Additionals(props) {
                 arrow_down={arrow_down}
                 arrow_up={arrow_up}
                 AccordionItem={AccordionItem}
+                type={"checkbox"}
             />
         </div>
     );

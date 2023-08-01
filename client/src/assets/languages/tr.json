@@ -1,0 +1,471 @@
+{
+  "hero-suptitle": "Gelin ve Fethiye yakınlarındaki habitatlarımızın keyfinin tadın.",
+  "hero-title": "Mavinin derinliklerindeki huzur",
+  "navlinks": [
+    "Ana Sayfa",
+    "Konsept",
+    "Bölge",
+    "Rezervasyon",
+    "Hakkımızda",
+    "SSS"
+  ],
+  "book_now": "Rezervasyon Yap",
+  "from": "dan",
+  "per_night": "gecelik",
+  "homepage_cabins": "Fethiye",
+  "homepage_cabins_desc": "Bir tarafında dünyanın saklı cenneti Ölü Deniz (Blue Lagoon), bir tarafında Eşen nehrinin çağladığı vadileriyle ünlü Saklıkent, terkedilmiş Rum köyü olan Kayaköy, M.Ö. 12. yüzyıla uzanan geçmişiyle Tilos Antik Kenti ...  Fethiye, gerek konumu, gerek tarihiyle maceraperesterden dinginlik arayışında olanlara kadar oldukça fazla seçeneği içinde barındıran, Türkiye’nin en fazla turist çeken ilçelerinden birisidir. ",
+  "read_more": "Læs mere",
+  "homepage_forest": "Küçük Sahil Kenti veya Canlı Bir Şehir",
+  "homepage_forest_desc": "Hızlı gelişmesine rağmen coğrafi yapısından dolayı büyümeyi iç kesimlerde yaşayan ve merkezinde hala tarihi ve turistik dokusunu koruyan Fethiye birçok insan için bir tatil beldesinden çok daha fazladır.",
+  "we_are_here": "Buradayız",
+  "facilities": "Tesisler",
+  "fridge": "Mini Buzdolabı",
+  "kitchen": "Mutfak",
+  "coffee": "Kahve makinesi",
+  "kettle": "Su ısıtıcısı",
+  "parking": "Otopark",
+  "views": "Nefes kesen manzaralar",
+  "pool": "Yüzme havuzu",
+  "light": "230V",
+  "wifi": "wifi",
+  "shower": "Duş",
+  "toilet": "Skylning af toiletter",
+  "towels": "Sengetøj og håndklæder",
+  "aboutus": "Hakkımızda daha fazlası",
+  "section_contact-title": "Bizimle iletişimde kalın",
+  "section_contact-address": "Cumhuriyet, 93. Sok No: 4C, 48300 \n Fethiye / Muğla, Türkiye",
+  "button_book_hut": "Bestil en hytte",
+  "footer_title": "Newsletter",
+  "email": "E-mail adresi",
+  "footer_desc": "Bültenimize kaydolun ve bir sonraki siparişinizde %10 indirim kazanın.",
+  "footer_item_1": "ŞARTLAR VE KOŞULLAR",
+  "footer_item_2": "İPTAL POLİTİKASI",
+  "footer_item_3": "GİZLİLİK POLİTİKASI",
+  "footer_copyright": "© 2023 Monihomes Group",
+  "concept": "konsept",
+  "concept_page": [
+    {
+      "section-title": "Monihomes",
+      "section-id": "monihomes",
+      "section-buttons": [
+        "Odalar",
+        "Konum",
+        "Özellikler"
+      ],
+      "section-desc": [
+        "Bu küçük şirin apart otelde kendinizi evinizde hissedeceksiniz. Mutfak, ütü, otopark, wifi.. Kısacası her türlü ihtiyacınızı karşılamaya hazırız. Odalarımız 3 kişilik olup 2 odamız balkonludur. Ve misafirlerimiz için ücretsiz otoparkımız mevcuttur.",
+        "Otelimiz tam olarak şehir merkezinde yer almaktadır. Toplu taşıma araçları ile 10 dakikada kendinizi plajlarda bulabilirsiniz. Kordon 3 dakika uzaklıkta olup, tarihi Paspatur caddesinde alışveriş yapabilir, meşhur balık pazarında inanılmaz deniz ürünlerinin tadını çıkarabilirsiniz."
+      ],
+      "section-features": [
+        "Lokalizasyon",
+        "Temizlik",
+        "Fiyat",
+        "Otopark",
+        "Ücretsiz Wifi",
+        "Mutfak",
+        "Şehir merkezi"
+      ]
+    },
+    {
+      "section-title": "Villa Masal",
+      "section-id": "villamasal",
+      "section-buttons": [
+        "Villa",
+        "Konum",
+        "Özellikler"
+      ],
+      "section-desc": [
+        "Villamız bölgenin dokusuna uygun taş mimariden oluşmaktadır. Oldukça konforlu bahçe mobilyaları, havuz kenarına konumlanmış locası ve minik misafirlerimizin kullanımına yönelik mini oyun parkı ile hizmet veren villanın içi de oldukça ferah bir yapıya sahiptir. Ayrıca bir yatak odasında jakuzi bulunmakta olup sauna ve şömine keyfini sevdiklerinizle birlikte çıkarabilirsiniz.",
+        "Yerimiz Fethiye Cengiz mahallesindedir. Şehrin karmaşasından uzakta, güne kuş cıvıltıları ile başlamak, güneşin, doğanın ve havuzun tadını çıkarmak için doğru yerdesiniz.\n Önemli bir hatırlatma: Konforlu bir tatil geçirebilmeniz adına villaya gitmeden önce alışverişinizi yapmanız gerekmekte olup en yakın markete 12 KM mesafede yer almaktadır."
+      ],
+      "section-features": [
+        "Havuz",
+        "Sauna",
+        "Jakuzi",
+        "İki Banyo",
+        "Şömine",
+        "Mutfak",
+        "Sessizlik",
+        "Çocuk Oyun Alanı",
+        "Doğa"
+      ]
+    },
+    {
+      "section-title": "Yoyo Tinyhouse",
+      "section-id": "yoyo_tinyhouse",
+      "section-buttons": [
+        "Villa",
+        "Konum",
+        "Özellikler"
+      ],
+      "section-desc": [
+        "Yoyo Tinyhouse ile Fethiye'de konaklamak, sıradan tatil deneyimlerinden uzaklaşmak isteyenler için harika bir seçenek. Doğa ile iç içe olmayı, minimalist bir yaşam tarzını deneyimlemeyi ve huzurlu bir atmosferde dinlenmeyi sevenler için idealdir. \n TinyHouse 1+1 ev olarak tasarlanmış olup 4 kişinin konaklamasına uygundur. Geniş verandası ile açık havada yemek yeme ve vakit geçirme imkanı sunmaktadır.",
+        "Yoyo Tinyhouse, şehrin kalabalığından ve gürültüsünden uzakta sakin ve huzurlu bir dinlenme sunuyor. Yerimiz Zincirlikavak'a yakın Çalıca bölgesindedir. \n Ölüdeniz plajına 13 km, Çalış plajına ise 7,5 km uzaklıktadır."
+      ],
+      "section-features": [
+        "Mutfak",
+        "Temizlik",
+        "Bahçe",
+        "Otopark",
+        "Ücretsiz Wifi",
+        "Doğa",
+        "Konfor"
+      ]
+    }
+  ],
+  "area": "Bölge",
+  "area-name": "Fethiye, Türkiye",
+  "area-nav": "get directions",
+  "area-map-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing...",
+  "activities": "Aktiviteler",
+  "area_page": [
+    {
+      "section-title": "Fethiye",
+      "section-subtitle": "Altın kumsallar, masmavi deniz, gezinti yolları ve özel deneyimler...",
+      "section-id": "fethiye",
+      "section-buttons": [],
+      "section-desc": [
+        "Altın kumsalları, ormanlık dağları ve kilometrelerce masmavi deniziyle kartpostalları andıran fonuyla Fethiye, Türkiye'nin en çok ziyaret edilen kruvaziyer limanlarından biri olması şaşırtıcı değil. Yemyeşil sahil gezinti yolları, hareketli çarşıları ve antik kalıntılarıyla şehir merkezinin kendisi de aynı derecede çekici."
+      ]
+    },
+    {
+      "section-title": "beach_map",
+      "section-subtitle": "Havlunuzu sereceğiniz yeri seçin...",
+      "section-id": "beaches",
+      "section-buttons": [],
+      "beach-list": [
+        "Günluklü Koyu",
+        "Katrancı Koyu",
+        "Çalış Plajı",
+        "Küçük Samanlık Plajı",
+        "Büyük Samanlık Plajı",
+        "Kuleli Plajı",
+        "Boncuklu Plajı",
+        "Gemile Plajı",
+        "Camel Beach",
+        "Kumburnu Plajı",
+        "Belcekız Plajı",
+        "Kabak Koyu",
+        "Kelebekler Vadisi"
+      ],
+      "section-desc": [
+        ""
+      ]
+    },
+    {
+      "section-title": "Koylar, Plajlar ve Tekne turları",
+      "section-id": "beaches",
+      "section-buttons": [
+        "Sahiller",
+        "Tekne turları"
+      ],
+      "section-desc": [
+        "Fethiye, mükemmel bir plaj tatilinin tadını çıkarmak için muhteşem bir yerdir. Burayı bu kadar popüler yapan şey, her plajın kendisina has dokusu olmasıdır. Kimi plajda sessizliği, kimi plajda su sporlarını, kiminde ise akvaryum berraklığında deniz suyunu bulabilirsiniz.",
+        "Rahatlamak ve dinlenmek istiyorsanız, bu sizin için en iyi seçimdir. Akdeniz güneşi altında güverteye uzanın, rüzgarın ıslığını dinleyin ve güvertede taze pişmiş bir yemek yiyin. Ve bir sürpriz! Kleopatra'nın sizden önce ziyaret ettiği bazı özel yerleri görebilirsiniz!"
+      ]
+    },
+    {
+      "section-title": "Restoranlar ve Alışveriş",
+      "section-id": "restaurants",
+      "section-buttons": [
+        "Restoranlar",
+        "Dükkanlar"
+      ],
+      "section-desc": [
+        "Türk mutfağının ünü herkezce bilinmektedir, ancak bu gerçeği tecrübe etmek bambaşkadır... Fethiye de bu konuda sizlere farklı yörelerin tadlarını sunmaktadır. Özellikle meşhur balık haline ayrı bir parantez açmak lazım. öğlen yada akşam yemeği için kendi seçtiğiniz deniz ürünlerini, çeşitli mezeler ile en lezzetli şekilde sizlere sunmakta. Tadını unutamayacağınızı garanti eder, tatiliniz süresince tekrar uğrayacağınızı garanti ederiz.",
+        "Tarihi Paspatur sokağındaki küçük dükkanlarda kendize ve sevdiklerinize Fethiye' yi hatırlayacağınız hediyelik eşyalar bulabilir, baharatçılarda mutfağınızı renklendirecek baharatlar alabilirsiniz. Ayrıca şehir merkezine yürüyüş mesafesinde bulunan modern Erasta alışveriş merkezinde ünlü markaların mağazalarında kendinizi şımartabilirsiniz."
+      ]
+    },
+    {
+      "section-title": "Doğa ile içiçe",
+      "section-id": "experiences",
+      "section-buttons": [
+        "Likya Yolu",
+        "Yamaç paraşütü",
+        "Dalış"
+      ],
+      "section-desc": [
+        "Akdeniz Sahillerinin en popüler yürüyüş parkuru olan Likya Yolu, Likyalıların antik ticaret yolunun Türkiye'nin Akdeniz kıyısındaki izlerini takip eden bir yürüyüş rotasıdır. Likya yolunun uzunluğu 500 kilometre (310 mi)'den fazladır. Bu yol, Fethiye, Ovacık yakınındaki Hisarönü'ünden başlayıp Antalya'dan yaklaşık 20 km (12 mi) uzaktaki Konyaaltı, Geyikbayırı'na kadar gider. Yol, kırmızı ve beyaz yol çizgileriyle işaretlidir.",
+        "Aşık olacağınız bir manzara sizi bekliyor. Babadağ'ın 1600mt (veya hava şartlarına bağlı olarak 1900mt) yüksekliğindeki tepesinden havalanacak ve son derece deneyimli pilotlar ile kumsala yüzerek yavaş bir inişe başlayacaksınız. Bu deneyimi hayatınız boyunca unutamayacaksınız. Uçuşunuz pilot tarafından video ve fotoğraf çekiminiz yapılacak ve eşsiz karelere bakınca kendinizle gurur duyacaksınız.",
+        "Su altı dünyasını keşfetmeye hazır mısınız? Endişelenmeyin, dalış yapmak için profesyonel veya deneyimli olmanıza gerek yok. Tüm gün size nasıl yapılacağını öğretecek ve size rehberlik edecek profesyonel öğretmenler var."
+      ]
+    },
+    {
+      "section-title": "Bir gezintiye çıkmaya var mısın?",
+      "section-id": "goforadrive",
+      "section-buttons": [
+        "Jeep Safari",
+        "Quad Safari",
+        "At Gezintisi"
+      ],
+      "section-desc": [
+        "Safari sizlerin otelinizden alınması ile başlayacak ve tüm araçlar buluşma noktasında buluşarak hep birlikte bir konvoy olarak yolculuğa başlayacaklardır. Güzergahımız Tlos - Saklıkent Boğazıdır.",
+        "Heyecan ve macera arıyorsanız bu aktivite tam size göre. Engebeli arazide ve çamurlu su birikintilerinde sürüş yapmak, günlük aktivitelerden alamadıkları bir heyecan duygusu yaratır.",
+        "Orman yollarında seyahat etmek ve bölgenin manzarası size ve tüm ailenize eğlenceli bir deneyim sunuyor. Pantolon ve ayakkabı giymeyi unutmayın, şapka güneş altında işinize yarayabilir."
+      ]
+    }
+  ],
+  "about_us": "Hakkımızda ",
+  "contact_us": "İletişime Geç",
+  "read_faq": "read faq",
+  "about_us_section_title": "“Siz değerli misafirlerimizin rahatı bizim için önceliktir.”",
+  "about_us_section_desc": "Türkiye'nin en güzel sahil şehirlerinden biri olan seçkin Fethiye'mizde sizleri evinizde hissettirmek birinci önceliğimizdir. Tüm ihtiyaçlarınızı karşılamak için her şeyi düşündük. Apart otel - Monihomes ve villalarımız kendi konseptlerinde zirvededir. Sizler için farklı konseptler oluşturduk. Doğanın içinde kuş seslerinin melodisi ile rahatlamak isteyenlerden, şehrin enerjisini hissetmek isteyenlere..",
+  "about_us_section_galery": "Bu karelerde yer almak ister misiniz?",
+  "about_us_image_desc": "Konaklamanızı geliştirmek ve unutulmaz anlar yaratmak için hazırlanmış teklifleri keşfedin...",
+  "form_element": [
+    {
+      "first_name": "Ad",
+      "last_name": "Soyad",
+      "email": "E-mail",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "send": "Gönder"
+    },
+    {
+      "error_fname": "Lütfen adınızı giriniz.",
+      "error_lname": "Lütfen soyadınızı giriniz.",
+      "error_email": "Lütfen geçerli bir eposta adresi giriniz.",
+      "error_subject": "Lütfen koyunu yazınız.",
+      "error_textarea": "Mesajınız 100 karakterden uzun olmalıdır."
+    }
+  ],
+  "heart-text": "Fethiye'den sevgilerle...",
+  "faq": [
+    {
+      "question": "PRISER",
+      "answer": [
+        "AFBESTILLINGSPOLITIK",
+        "Afbestilling fire uger før = 100 % refusion",
+        "Afbestilling to uger før = 50 % refusion",
+        "Afbestilling senere end to uger = fuld betaling"
+      ]
+    },
+    {
+      "question": "GÅNINGEN OP TIL GLASHYTTEN",
+      "answer": [
+        "Neque porro quisquam est qui",
+        "Der er mange variationer af passager af Lorem Ipsum tilgængelige.",
+        "I modsætning til hvad folk tror, er Lorem Ipsum ikke blot tilfældig tekst.",
+        "Standarddelen af Lorem Ipsum brugt siden 1500-tallet."
+      ]
+    },
+    {
+      "question": "KAPACITET",
+      "answer": [
+        "Hvor kommer det fra?",
+        "Richard McClintock, en latinprofessor ved Hampden-Sydney College i Virginia",
+        "Lorem Ipsum kommer fra afsnit 1.10.32.",
+        "Den første linje i Lorem Ipsum, 'Lorem ipsum dolor sit amet..'"
+      ]
+    },
+    {
+      "question": "kæledyr",
+      "answer": [
+        "Hvor kan jeg få nogle?",
+        "Alle Lorem Ipsum-generatorerne på internettet har en tendens til at gentage sig.",
+        "Den bruger en ordbog med over 200 latinske ord.",
+        "Lorem Ipsum som ser fornuftigt ud."
+      ]
+    },
+    {
+      "question": "INDKJEKNING/UDKLIK",
+      "answer": [
+        "Hvad er Lorem Ipsum?",
+        "Lorem Ipsum er simpelthen en dummy tekst fra trykkeri- og sættebranchen.",
+        "Den har overlevet ikke kun fem århundreder.",
+        "Lorem Ipsum passager, og for nylig med desktop publishing software."
+      ]
+    }
+  ],
+  "booking": "Rezervasyon",
+  "booking_consept": "Choose Your Consept",
+  "booking_concept_services": [
+    {
+      "name": "Choose Your Consept",
+      "id": "concept",
+      "price": 5000,
+      "desc_title": "Fresh Breakfast",
+      "desc": [
+        {
+          "id": "concept_01",
+          "price": 2000,
+          "title": "Moni Homes",
+          "description": "Apart Hotel, located at the center of city"
+        },
+        {
+          "id": "concept_02",
+          "price": 5000,
+          "title": "Villa Masal",
+          "description": "An excellent villa by a swimming pool."
+        },
+        {
+          "id": "concept_03",
+          "price": 600,
+          "title": "Yoyo Tiny House",
+          "description": "An excellent villa by a garden."
+        }
+      ]
+    }
+  ],
+  "booking_additionals": "Choose Additional Services",
+  "booking_additional_services": [
+    {
+      "name": "Fresh Breakfast for one",
+      "id": "breakfast01",
+      "price": 400,
+      "desc_title": "Fresh Breakfast",
+      "desc": [
+        {
+          "id": "breakfast_01",
+          "price": 600,
+          "title": "Breakfast 01",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfast_02",
+          "price": 600,
+          "title": "Breakfast 02",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfast_03",
+          "price": 600,
+          "title": "Breakfast 03",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        }
+      ]
+    },
+    {
+      "name": "Fresh Breakfast for two",
+      "id": "breakfast02",
+      "price": 600,
+      "desc_title": "Fresh Breakfast",
+      "desc": [
+        {
+          "id": "breakfastfor2_01",
+          "price": 600,
+          "title": "Breakfastfor2 01",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfastfor2_02",
+          "price": 600,
+          "title": "Breakfastfor2 02",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfastfor2_03",
+          "price": 600,
+          "title": "Breakfastfor2 03",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        }
+      ]
+    },
+    {
+      "name": "Classic Dinner for one",
+      "id": "dinner01",
+      "price": 600,
+      "desc_title": "Classic Dinner",
+      "desc": [
+        {
+          "id": "dinner_01",
+          "title": "Dinner_01 01",
+          "price": 600,
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "dinner_02",
+          "title": "Dinner_01 02",
+          "price": 600,
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "dinner_01_03",
+          "price": 600,
+          "title": "Dinner 03",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        }
+      ]
+    },
+    {
+      "name": "Classic Dinner for one",
+      "id": "dinner02",
+      "price": 600,
+      "desc_title": "Classic Dinner",
+      "desc": [
+        {
+          "id": "dinnerfor2_01_01",
+          "price": 600,
+          "title": "Dinnerfor2 01",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfast_02",
+          "price": 600,
+          "title": "Dinnerfor2 02",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "breakfast_03",
+          "price": 600,
+          "title": "Dinnerfor2 03",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        }
+      ]
+    },
+    {
+      "name": "Electric Car Charge",
+      "id": "charge01",
+      "price": 600,
+      "desc_title": "Electric Car Charge",
+      "desc": [
+        {
+          "id": "charge_01",
+          "title": "charge 01",
+          "price": 600,
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        },
+        {
+          "id": "charge_02",
+          "price": 600,
+          "title": "charge 02",
+          "description": "Bread, Coffee, milk, juice, and a selection of spreads + toppings."
+        }
+      ]
+    }
+  ],
+  "booking_hot_rules": [
+    "Hut rules",
+    "Check-in: 2:00 PM - 11:00 PM ",
+    "Checkout: 11:00 AM",
+    "No smoking",
+    "No pets"
+  ],
+  "booking_cancellation_policy": [
+    "Cancellation policy",
+    "Free cancellation until 1:00 PM on Mar 27",
+    "After that, cancel before 2: 00 PM on Apr 1 and get a 50% refund, minus the first night and service fee."
+  ],
+  "booking_important_info": [
+    "Important Information",
+    "You need to hike a steep hill to arrive at the treehouses, it takes approx 20-30 minutes on a trail with stairs and uneven ground."
+  ],
+  "booking_words": [
+    {
+      "discount": "discount",
+      "total": "Toplam",
+      "night": "gece",
+      "nights": "gece",
+      "check_in": "Giriş",
+      "check_out": "Çıkış",
+      "guests": "Misafirler",
+      "book": "rezervasyon",
+      "coupon": "Kupon numarası",
+      "apply": "Onay",
+      "clear": "Tarihleri temizle",
+      "close": "Kapat",
+      "error_dates": "Bu tarihler doludur. \nLütfen geçerli bir tarih giriniz.",
+      "invalid_coupon": "Geçersiz kod. Lütfen tekrar deneyin."
+    }
+  ]
+}

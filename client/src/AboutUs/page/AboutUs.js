@@ -6,20 +6,27 @@ import ImageGallery from '../components/ImageGallery';
 import StayInTouch from '../../shared/components/StayInTouch';
 import ContactForm from '../components/ContactForm';
 import { sectionsData } from '../../assets/sectionsData';
-
+import ReactPlayer from 'react-player'
 
 import background from '../../assets/images/aboutus/hero.png';
-import section_image_1 from '../../assets/images/aboutus/aboutus_1.png';
 import hearth from '../../assets/icons/hearth.png';
-
+import video_ from '../../assets/videos/dron_edited.mp4'
 import './AboutUs.css';
 function AboutUs(props) {
     const lang = useContext(LanguageContext);
+    function scrollSmoothTo(elementId) {
+        var element = document.getElementById(elementId);
+        element.scrollIntoView({
+            block: "start",
+            behavior: 'smooth',
 
+        });
+    }
     const content = <div className="about-content-wrapper">
-        <button className='about-nav-btn'>{lang.dictionary["contact_us"]}</button>
+        <button className='about-nav-btn' onClick={() => scrollSmoothTo('contact')}>{lang.dictionary["contact_us"]}</button>
         <NavLink to='/faq' className='about-nav-btn'>{lang.dictionary["read_faq"]}</NavLink>
     </div>
+
     return (
         <div className='page-container aboutus-wrapper'>
             <SectionHero
@@ -29,7 +36,9 @@ function AboutUs(props) {
             />
             <div className="section-card-container">
                 <div className="section-image-wrapper">
-                    <img src={section_image_1} alt="section_image_1" />
+                    <ReactPlayer url={video_} playing={true} muted={true} loop={true}
+                        width={'100%'} height={'100%'}
+                    />
                 </div>
                 <div className="section-card-content">
                     <h3 className="section-card-title"><Text tid='about_us_section_title' /></h3>
@@ -41,7 +50,7 @@ function AboutUs(props) {
                 images={sectionsData.aboutus}
                 image_content={lang.dictionary["about_us_image_desc"]}
             />
-            <div className="about_us-contact-section">
+            <div className="about_us-contact-section" id='contact'>
                 <StayInTouch>
                     <ContactForm />
                 </StayInTouch>

@@ -4,21 +4,21 @@ import React, { useContext, useState, useEffect } from "react";
 import { languageOptions } from "../../assets/languages/index";
 import { LanguageContext } from "../context/Language";
 
-import denmark from "../../assets/icons/denmark.png";
-import england from "../../assets/icons/united-kingdom.png";
+import denmark from "../../assets/icons/turk.png";
+import england from "../../assets/icons/uk.png";
 import germany from "../../assets/icons/germany.png";
 import "./LanguageSelector.css";
 
 export default function LanguageSelector(props) {
   const { userLanguage, userLanguageChange } = useContext(LanguageContext);
   const [isOptionsOpen, setIsOptionsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("dk");
+  const [selectedOption, setSelectedOption] = useState("tr");
   const [selectedFlag, setSelectedFlag] = useState();
 
   useEffect(() => {
     const defaultLanguage = localStorage.getItem("rcml-lang");
     setSelectedOption(defaultLanguage);
-    if (defaultLanguage === "dk") {
+    if (defaultLanguage === "tr") {
       setSelectedFlag(denmark);
     } else if (defaultLanguage === "en") {
       setSelectedFlag(england);
@@ -43,7 +43,7 @@ export default function LanguageSelector(props) {
     setIsOptionsOpen(false);
     userLanguageChange(index);
 
-    if (index === "dk") {
+    if (index === "tr") {
       setSelectedFlag(denmark);
     } else if (index === "en") {
       setSelectedFlag(england);
@@ -62,7 +62,7 @@ export default function LanguageSelector(props) {
         onClick={toggleOptions}
         style={props.style}
       >
-        <img src={selectedFlag} alt="flag" />
+        <img src={selectedFlag || denmark} alt="flag" />
       </button>
       <ul
         className={`options ${isOptionsOpen ? "show" : ""}`}

@@ -20,15 +20,22 @@
   height: 351px;
 }
 .forest-image-wrapper {
-  background-image: url("../../assets/images/homepage/map.png");
+  /* background-image: url("../../assets/images/homepage/map.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat; */
   width: 100%;
   height: 650px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.forest-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
 }
 
 .forest-image-filter {
@@ -46,6 +53,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 99;
 }
 .forest-location-secondline {
   width: 134px;

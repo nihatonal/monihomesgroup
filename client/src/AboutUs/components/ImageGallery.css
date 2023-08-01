@@ -13,6 +13,7 @@
   width: 537px;
   height: 112px;
   margin-bottom: 100px;
+  text-align: center;
 }
 .images-wrapper {
   align-items: center;
@@ -28,6 +29,12 @@
 .images-wrapper .image-gallery-item-wrapper:nth-last-child(2) {
   order: 1;
 }
+@media screen and (max-width: 1394px) {
+  .images-wrapper .image-gallery-item-wrapper:nth-last-child(4) {
+    order: -1;
+  }
+}
+
 .image-content {
   width: 432px;
   height: 387px;

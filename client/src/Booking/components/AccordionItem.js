@@ -1,10 +1,10 @@
-import { useRef, useState, useContext } from "react";
+import { useRef, useState, useContext, useEffect } from "react";
 import { CartContext } from "../../shared/context/CartContext";
 import { HiPlus } from "react-icons/hi";
 import { HiOutlineCheck } from "react-icons/hi";
 import './AccordionItem.css';
 
-const AccordionItem = ({ faq, active, onToggle, arrow_down, arrow_up }) => {
+const AccordionItem = ({ faq, active, onToggle, type, arrow_down, arrow_up }) => {
     const { name, desc, price, id } = faq;
     const cart = useContext(CartContext);
 
@@ -13,6 +13,8 @@ const AccordionItem = ({ faq, active, onToggle, arrow_down, arrow_up }) => {
     const [checkedState, setCheckedState] = useState(
         new Array(desc.length).fill(false)
     );
+    const arr = [...new Set([].concat(cart.items.map((item) => item.additions)).flat()),]
+
     const checkboxHandler = (e, position) => {
 
         const updatedCheckedState = checkedState.map((item, index) =>
@@ -49,13 +51,13 @@ const AccordionItem = ({ faq, active, onToggle, arrow_down, arrow_up }) => {
     }
     return (
         <li className={`accordion_item ${active ? "active" : ""}`}>
-            <div className="question">
+            <div className="question" >
                 <p className={checkedState.includes(true) ? "question-mark checked" : "question-mark"}>
                     {checkedState.includes(true) ? <HiOutlineCheck /> : <HiPlus />}
                 </p>
                 <p className="accordion_item-name"> {name}</p>
                 <span className="portion">
-                    {total > 0 ? `${total}kr` : ""}
+                    {total > 0 ? `${total}₺` : ""}
                 </span>
                 <span className="control" onClick={onToggle}>{active ? arrow_down : arrow_up} </span>
             </div>
@@ -70,22 +72,24 @@ const AccordionItem = ({ faq, active, onToggle, arrow_down, arrow_up }) => {
             >
 
                 {desc.map((item, index) =>
-                    <div className="desc" key={index+item.id}>
+                    <div className="desc" key={index + item.id}
+
+
+                    >
                         <label className="check-button">
                             <input
-                                type="checkbox"
+                                type={type}
                                 id={item.id}
                                 name={item.title}
-                                value={price}
+                                value={item.price}
                                 checked={checkedState[index]}
                                 onChange={(e) => checkboxHandler(e, index)}
                             />
-
                             <span className={checkedState[index] ? "checked" : ""}>{checkedState[index] ? <HiOutlineCheck /> : <HiPlus />}</span>
                         </label>
                         <p className="desc-item-title">
                             {item.title}
-                            <span className="desc-item-price"> {`${price}kr`}</span>
+                            <span className="desc-item-price"> {`${item.price}₺`}</span>
                         </p>
                         <p className="desc-item-desc">
                             {item.description}

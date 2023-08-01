@@ -8,11 +8,11 @@ import HutRules from '../components/HutRules';
 import Cancellation from '../components/Cancellation';
 import Information from '../components/Information';
 import Cart from '../components/Cart';
-
+import ConseptSelect from '../components/ConseptSelect';
 import background from '../../assets/images/booking/hero.png';
 import { MdLocationOn } from "react-icons/md";
 import './Booking.css';
-function Booking(props) {
+function Booking() {
     const lang = useContext(LanguageContext);
     const content =
         <div className="area-content-wrapper">
@@ -33,6 +33,7 @@ function Booking(props) {
 
             />
             <div className='booking-wrapper'>
+                <ConseptSelect />
                 <Additionals />
                 <Cart />
                 <HutRules />
